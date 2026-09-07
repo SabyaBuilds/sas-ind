@@ -15,9 +15,8 @@ function Navbar() {
   return (
     <>
     <header className="site-header absolute z-10 flex h-headerH w-full items-center gap-10 bg-ink px-[7.7%] text-white">
-      <Link className="brand flex items-center gap-2.5 font-sans text-xl font-bold tracking-[0.12em]" to="/#top" aria-label="SAS Constructions home">
-        <span className="grid h-[38px] w-[38px] rotate-45 place-items-center border border-gold font-serif text-[21px] text-gold">S</span>
-        <span>SAS<span className="text-gold">.</span></span>
+      <Link className="brand block h-[70px] w-[107px] shrink-0 overflow-hidden bg-white leading-none min-[801px]:h-[78px] min-[801px]:w-[119px]" to="/#top" aria-label="SAS Constructions home">
+        <img className="block h-full w-full object-contain" src="/sas-constructions-logo.jpeg" alt="SAS Construction & Interiors" />
       </Link>
       <button
         className="menu-toggle ml-auto flex flex-col gap-1.5 border-0 bg-transparent text-white min-[801px]:hidden"
